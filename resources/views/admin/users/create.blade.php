@@ -1,7 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Waldemiro
- * Date: 07/08/2016
- * Time: 12:45
- */
+@extends('layouts.admin')
+@section('content')
+  <h1>Create Users</h1>
+@endsection
+@section('footer')
+@endsection

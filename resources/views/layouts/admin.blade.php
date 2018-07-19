@@ -31,21 +31,22 @@
       </button>
       <a class="navbar-brand" href="/">Home</a>
     </div>
-    <ul class="nav navbar-top-links navbar-right">
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-          <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
-        </a>
-        <ul class="dropdown-menu dropdown-user">
-          <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-          </li>
-          <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-          </li>
-          <li class="divider"></li>
-          <li><a href="{{ url('/logout') }}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-          </li>
-        </ul>
-      </li>
+    <ul class="nav navbar-nav navbar-right">
+      <!-- Authentication Links -->
+      @if (Auth::guest())
+        <li><a href="{{ url('/login') }}">Login</a></li>
+        <li><a href="{{ url('/register') }}">Register</a></li>
+      @else
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            {{ Auth::user()->name }} <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+          </ul>
+        </li>
+      @endif
     </ul>
     {{--<ul class="nav navbar-nav navbar-right">--}}
     {{--@if(auth()->guest())--}}

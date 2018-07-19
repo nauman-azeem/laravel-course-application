@@ -26,7 +26,7 @@ class AdminUsersController extends Controller
   {
     User::create($request->all());
     return redirect('/admin/users');
-    return $request->all();
+//    return $request->all();
   }
 
   public function show($id)

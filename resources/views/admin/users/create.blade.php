@@ -16,7 +16,7 @@
     </div>
     <div class="form-group">
       {!! Form::label('role_id', 'Role:') !!}
-      {!! Form::text('role', null, ['class'=>'form-control']) !!}
+      {!! Form::select('role', [''=>'Choose Options'] + $roles, null, ['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
       {!! Form::submit('Create User', ['class'=>'btn btn-primary']) !!}

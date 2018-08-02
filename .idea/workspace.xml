@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22c72fa9-bbe3-4007-a08a-300dcc07ec63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
-    </list>
+    <list default="true" id="22c72fa9-bbe3-4007-a08a-300dcc07ec63" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,16 +61,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -110,6 +91,16 @@
                 <marker date="1533225233647" expanded="true" signature="35:44" ph="..." />
                 <marker date="1533225233647" expanded="true" signature="84:92" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018_08_02_155715_create_posts_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_02_155715_create_posts_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -219,6 +210,7 @@
         <option value="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_08_02_155715_create_posts_table.php" />
       </list>
     </option>
   </component>
@@ -699,12 +691,12 @@
       <workItem from="1532283687896" duration="47000" />
       <workItem from="1532604550185" duration="544000" />
       <workItem from="1533197541408" duration="419000" />
-      <workItem from="1533223988605" duration="1320000" />
+      <workItem from="1533223988605" duration="1702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25548000" />
+    <option name="totallyTimeSpent" value="25930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="611" width="1297" height="381" extended-state="0" />
@@ -740,38 +732,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-          <folding>
-            <marker date="1532039565401" expanded="true" signature="9:24" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="35:44" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="133:198" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="292:402" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="448:478" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="493:546" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="605:637" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="652:707" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="766:803" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="818:914" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="973:1006" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1021:1112" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1171:1209" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1224:1279" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1338:1373" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1388:1427" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1486:1543" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1569:1584" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1597:1686" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1736:1794" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1822:1837" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1894:1915" ph="..." />
-            <marker date="1532039565401" expanded="true" signature="1947:1955" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1220,6 +1180,14 @@
             <marker date="1533225233647" expanded="true" signature="35:44" ph="..." />
             <marker date="1533225233647" expanded="true" signature="84:92" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_02_155715_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

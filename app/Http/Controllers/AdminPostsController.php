@@ -34,6 +34,8 @@ class AdminPostsController extends Controller
       $photo = Photo::create(['file'=>$name]);
       $input['photo_id'] = $photo->id;
     }
+    $user->posts()->create($input);
+    return redirect('/admin/posts');
   }
 
   public function show($id)
